@@ -1,5 +1,6 @@
 package com.compass.springmongo.resources;
 
+import com.compass.springmongo.domain.Post;
 import com.compass.springmongo.domain.User;
 import com.compass.springmongo.dot.UserDTO;
 import com.compass.springmongo.services.UserService;
@@ -53,6 +54,12 @@ public class UserResource {
         user.setId(id);
         service.update(user);
         return ResponseEntity.noContent().build();
+    }
+
+    @GetMapping(value = "/{id}/posts")
+    public ResponseEntity<List<Post>> findPosts(@PathVariable String id) {
+        User user = service.findById(id);
+        return ResponseEntity.ok(user.getPosts());
     }
 
 }
