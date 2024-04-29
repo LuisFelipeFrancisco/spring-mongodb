@@ -1,7 +1,7 @@
 package com.compass.springmongo.services;
 
 import com.compass.springmongo.domain.User;
-import com.compass.springmongo.dot.UserDTO;
+import com.compass.springmongo.dto.UserDTO;
 import com.compass.springmongo.repository.UserRepository;
 import com.compass.springmongo.services.exception.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;

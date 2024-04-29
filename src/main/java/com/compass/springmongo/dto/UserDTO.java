@@ -1,4 +1,4 @@
-package com.compass.springmongo.dot;
+package com.compass.springmongo.dto;
 
 import com.compass.springmongo.domain.User;
 

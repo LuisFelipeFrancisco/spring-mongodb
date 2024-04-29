@@ -1,7 +1,7 @@
 package com.compass.springmongo.domain;
 
-import com.compass.springmongo.dot.AuthorDTO;
-import com.compass.springmongo.dot.CommentDTO;
+import com.compass.springmongo.dto.AuthorDTO;
+import com.compass.springmongo.dto.CommentDTO;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 

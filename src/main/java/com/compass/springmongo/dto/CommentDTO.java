@@ -1,4 +1,4 @@
-package com.compass.springmongo.dot;
+package com.compass.springmongo.dto;
 
 import java.io.Serializable;
 import java.util.Date;

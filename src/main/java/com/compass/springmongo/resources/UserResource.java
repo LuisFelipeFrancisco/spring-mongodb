@@ -2,7 +2,7 @@ package com.compass.springmongo.resources;
 
 import com.compass.springmongo.domain.Post;
 import com.compass.springmongo.domain.User;
-import com.compass.springmongo.dot.UserDTO;
+import com.compass.springmongo.dto.UserDTO;
 import com.compass.springmongo.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

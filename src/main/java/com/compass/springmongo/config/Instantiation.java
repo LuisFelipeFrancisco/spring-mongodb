@@ -2,8 +2,8 @@ package com.compass.springmongo.config;
 
 import com.compass.springmongo.domain.Post;
 import com.compass.springmongo.domain.User;
-import com.compass.springmongo.dot.AuthorDTO;
-import com.compass.springmongo.dot.CommentDTO;
+import com.compass.springmongo.dto.AuthorDTO;
+import com.compass.springmongo.dto.CommentDTO;
 import com.compass.springmongo.repository.PostRepository;
 import com.compass.springmongo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
